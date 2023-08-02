@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0e0e1e;
+  text-align: center;
+  box-shadow: inset 0 0 80px 40px #121226;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #fff;
+  text-shadow: 0 0 3px #fff;
+  letter-spacing: 2px;
+}
+
+
+.review_container {
+  margin: 40px auto 0px;
+  font-weight: 300;
+}
+
+.item {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 0 0 10px;
+  margin: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+.form_container {
+  margin-top: 20px;
+  color: #fff;
+}
+
+input {
+  border: none;
+}
+
+.btn {
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+  padding: 0 25px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin-top: 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  text-shadow: none;
+  transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+form textarea#review {
+  color: #fff;
+  background: #171730;
+  padding: 0 25px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  text-shadow: none;
+  transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1);
+}
